@@ -1,0 +1,46 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>The conjuring: last rites</title>
+  <style>
+    html, body {
+      height: 100%;
+      margin: 0;
+      background: #000;
+      color: #fff;
+      font-family: system-ui, -apple-system, Segoe UI, Roboto, sans-serif;
+    }
+    .wrap {
+      height: 100%;
+      display: grid;
+      place-items: center;
+      padding: 16px;
+    }
+    video, .frame {
+      width: 100%;
+      height: auto;
+      max-width: 960px; /* adjust as needed */
+      border: none;
+      border-radius: 8px;
+      box-shadow: 0 10px 30px rgba(0,0,0,.45);
+      background: #000;
+    }
+  </style>
+</head>
+<body>
+  <div class="wrap">
+    <video
+      controls
+      playsinline
+      preload="metadata"
+      poster="video/conju.jpg">
+      <source src="video/mama mia.mp4" type="video/mp4" />
+      <!-- Optional fallback formats -->
+      <source src="video.webm" type="video/webm" />
+      Sorry, your browser doesn’t support embedded videos.
+    </video>
+  </div>
+</body>
+</html>
